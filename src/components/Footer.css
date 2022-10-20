@@ -1,0 +1,130 @@
+.footer {
+  display: flex;
+  flex-direction: column;
+  margin-top: 50px;
+}
+
+.footer-top {
+  width: 85%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.footer-top-text {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  text-align: start;
+}
+
+.two-slash {
+  font-size: 35px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.footer-top-text p {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.big-w {
+  background-color: #ff184e;
+  color: white;
+  font-size: 18px;
+  font-weight: 900;
+  padding: 0px 3px;
+}
+
+.footer-top-row {
+  width: 130px;
+}
+
+.footer-columns-heading {
+  font-weight: 700;
+  font-size: 15px;
+  color: #282828af;
+}
+
+.footer-top-row li {
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 11px;
+  margin-top: 10px;
+}
+
+.footer-top-row li a {
+  text-decoration: none;
+  color: black;
+  transition: 0.3s color;
+}
+
+.footer-top-row li a:hover {
+  color: #ff184e;
+}
+
+.li-mark {
+  padding: 2px 5px;
+  margin-left: 10px;
+  border-radius: 2px;
+  color: white;
+  text-transform: capitalize;
+}
+
+.mark-orange {
+  background-color: #ff6552;
+}
+
+.mark-green {
+  background-color: #56ca71;
+}
+
+.footer-top-sign-up {
+  width: 350px;
+}
+
+.footer-top-sign-up p {
+  font-size: 13px;
+  line-height: 15px;
+  font-weight: 400;
+  margin-top: 15px;
+}
+
+.footer-sign-inp-btn {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sign-input {
+  width: 230px;
+  border: none;
+  background-color: #88888826;
+  letter-spacing: 0.1px;
+  font-size: 12px;
+  padding: 5px 10px;
+}
+
+.sign-input {
+  border: none;
+}
+
+.sign-input:focus {
+  outline: none;
+}
+
+.footer-sign-inp-btn button {
+  padding: 10px;
+  letter-spacing: 0.01px;
+  font-size: 12px;
+}
+
+.footer-checker {
+  display: flex;
+}
+
+.check-box {
+  margin-right: 5px;
+}

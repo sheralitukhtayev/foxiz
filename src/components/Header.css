@@ -1,7 +1,6 @@
 .header-container {
   display: flex;
   flex-direction: column;
-  font-family: "Oswald", sans-serif;
 }
 
 .top-image {
@@ -87,4 +86,10 @@
 .fa {
   margin-right: 5px;
   cursor: pointer;
+}
+
+.fixed-buttons {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
 }
